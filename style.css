@@ -478,7 +478,9 @@ color: #000;
 
  @media screen and (max-width:972px) {
   
-
+body{
+  overflow: hidden;
+}
 
 .none{
   display: none;
