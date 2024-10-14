@@ -1,0 +1,53 @@
+@import url('./reset-min.css');
+@import url('./verdana.css');
+@import url('./style_.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+h7{
+    color: #E65200;
+    font-size: 7rem;
+    width: 0.5rem;
+    margin-left: 20px;
+    display: block;
+    animation: piscaPisca 6s infinite;
+}
+
+a {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 25px;
+    text-decoration: none;
+    max-height: 30px;
+    margin-top: -18px;
+    border: none;
+  }
+
+
+
+@keyframes piscaPisca {
+    0%{color: #E65200;}
+    10% {color: #E65200;}
+    15% {color: #fff;}
+    20% {color: #fff;}
+    25%{color: #E65200;}
+    35% {color: #E65200;}
+    40% {color: #fff;}
+    45% {color: #fff;}
+    50%{color: #E65200;}
+    60% {color: #E65200;}
+    65% {color: #fff;}
+    70% {color: #fff;}
+    75%{color: #E65200;}
+    85% {color: #E65200;}
+    90% {color: #fff;}
+    95% {color: #fff;}
+    100%{color: #E65200;}
+}

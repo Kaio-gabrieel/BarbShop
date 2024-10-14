@@ -15,23 +15,27 @@
     <title>Barber Shop</title>
   </head>
   <body>
-      
+
+
 <div class="pai">
   <div class="container-top">
            <img class="logo1" src="./img/Logo Barbearia ilustrado Cinza.png" alt="logo-barbearia">
-
+            <h6> <span>Barbe</span> shop</h6>
           <header>
-            <a href="tel:5581999878924">Contato</a>
-          <a href="#" onclick="cliquei()" >Serviços</a>
-          <a href="#fim">Sobre</a>
-          
+            <ul class="menu-list"> 
+              <li class="nav-li"><a class="nav-link" href="./index.html">Home</a></li>
+              <li class="nav-li"><a class="nav-link" href="#"onclick="cliquei()">Serviços</a></li>
+              <li class="nav-li"><a class="nav-link" href="./index_.html">Sobre</a></li>
+            </ul>
+            <img class="menu-icon" src="./img/menu.png" alt="botão-menu" onclick="showMenu()" >
+
           </header>         
   </div>
           <div class="container-fotos">
             
             <div class="fotos ativo">
               <img class="none" src="./img/barbeiroCorte.avif" alt="">
-              <img  src="./img/p_foto_000305866.jpg" alt="">
+              <img  src="./img/mão-tesoura.avif"alt="">
             </div>
               
               <div class="fotos">
@@ -43,8 +47,16 @@
                 <img class="img03" src="./img/frentedabarbearia.jpeg" alt="">
                 <img class="img03 none" src="./img/barbearia-interior01.jpg" alt="">
               </div>
-                
+
+              <div class="indicators">
+                <ul>
+                  <div class="active"></div>
+                  <div></div>
+                  <div></div>
+            </div>
+
           </div>
+          
          
           <div class="seta">
            
@@ -61,38 +73,41 @@
           <div class="Sobre" id="fim">
           
             <section class="wrapper">
-              <h3>Barber Shop</h3>
-              <h1>Te deixando na reguá e elevando seu estilo &#x1F487;</h1>
-              <p>
-               A mais de 5 anos garantindo o seu melhor estilo com técnicas inovadoras e ousadas. 
-               Contamos com dois profissionais para diminuir o seu tempo de espera, o ambiente climatizado, com wi-fi e mesa de jogos
-                visando á melhor experiência para nossos clientes.
-  
-              </p>
-            </section>
-  
-            <div class="maps"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22406.876624210512!2d-34.939670421781905!3d-7.881462220326054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab14e2018bf58f%3A0x55715c2f4cf7bf88!2sArea%20de%20Lazer%20Cruz%20de%20Rebou%C3%A7as!5e0!3m2!1spt-BR!2sbr!4v1719247955024!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                <div>
+                  <h3><span>Barber</span> Shop</h3>
+              </div> 
+           
+              <div >
               <div class="titulo">
                 <p>Domingo: <span>Fechado</span> <span class="material-icons">access_time</span> </p>
                 <p>Segunda á Sexta: <span> 10:00 ás 18:00</span> <span class="material-icons">access_time</span></p>
                 <p>Sábados: <span> 08:00 ás 18:00</span>  <span class="material-icons">access_time</span> </p>
-              </div>
-               
-            </div>    
+                  
+                <div class="sociais">
+                <a href="https://www.instagram.com/kaiio_gabriel113/?next=%2F"> <img class="insta" src="./img/instagran.avif" alt=""></a>   
+                
+                <a href="https://w.app/XIYVLr" alt=""><img class="wpp" src="./img/whatsapp.png" alt=""></a>
+              </div> 
+
+            </div> 
+
+            <button class="button-contato"> Fale conosco</button>
+            </section>
+          </div>    
         
-          </div>  
+           
       <div class="container-item">
-        
+       
         <div class="item active">
           <img class="estilos" src="./img/Nudred-com-risco.jpg" alt="Corte-degrade">
             <div class="descrição">
                 <h1>Desenho</h1>
                 <p>A partir de:</p>
-                <p>30,00 R$</p>
+                <p><span>30,00 R$</span></p>
                 <a href="#">horarios Disponíveis</a>
             </div>
         </div>
-    
+
        <div class="item">
           <img class="estilos" src="./img/Barba.webp" alt="Corte-degrade">
             <div class="descrição">
@@ -114,7 +129,7 @@
         </div>
 
         <div class="item">
-          <img class="estilos degrade" src="./img/degrade.png" alt="Corte-degrade">
+          <img class="degrade" src="./img/degrade.png" alt="Corte-degrade">
             <div class="descrição">
                 <h1>Degradê</h1>
                 <p>A partir de:</p>
@@ -122,7 +137,6 @@
                <a href="#">horarios Disponíveis</a>
             </div>
         </div>
-    
       </div>
 
           <div class="arrow">
@@ -135,78 +149,73 @@
               <img src="./img/arrow.png" alt="seta esquerda">
             </button>
           </div>
+
+          <div class="equipe">
+            <h5>Nossa equipe</h5>
+            <div class="Foto-equi">
+              <img src="./img/barbeiro1.jpg" alt="">
+              <img src="./img/barbeiro2.avif" alt="" srcset="">
+            </div>
+          </div>
+
+          <div class="maps"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22406.876624210512!2d-34.939670421781905!3d-7.881462220326054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab14e2018bf58f%3A0x55715c2f4cf7bf88!2sArea%20de%20Lazer%20Cruz%20de%20Rebou%C3%A7as!5e0!3m2!1spt-BR!2sbr!4v1719247955024!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            
+          </div> 
 </div>
 
  <div class="container-form">
    <form class="for">
 
-    <h2>Cabelo</h2>
+    <h2>Cabelo <img src="./img/CABELO.png" alt=""></h2>
 
       <div class="card-serviços">
 
         <div class="preços">
           <h1>Corte</h1>
-          <p>40 min</p>
-          <p>Apartir de:</p>
-          <p>20R$</p>          
+          <p>40 min</p>          
         </div>
 
           <div class="preços">
             <h1>Acabamento</h1>
             <p>15 min</p>
-            <p>Apartir de:</p>
-            <p>10R$</p>
           </div>
 
           <div class="preços">
             <h1>Corte + Barba</h1>
             <p>55 min</p>
-            <p>Apartir de:</p>
-            <p>45R$</p>
           </div>
 
             <div class="preços">
               <h1>Corte + Sobrancelha</h1>
               <p>45min</p>
-              <p>Apartir de:</p>
-              <p>25R$</p>
             </div>
       </div>     
 
-      <h3>Barba e bidoge</h3>
-
+      <h7>Barba <img src="./img/BARBAa.png" alt=""></h7>
 
     <div class="card-serviços card-barba">
         <div class="preços barba">
           <h1>Barba</h1>
-          <p>20 min</p>
-          <p>Apartir de:</p>
-          <p>20R$</p>          
+          <p>20 min</p>        
         </div>
 
         <div class="preços barba">
           <h1>Barba + acabamento</h1>
           <p>30 min</p>
-          <p>Apartir de:</p>
-          <p>30R$</p>
         </div>
     </div>
         
-      <h4>Química (pintar)</h4>
+      <h4>Química (pintar) <img src="./img/estetica-facial.png" alt=""></h4>
 
       <div class="card-serviços card-quimica">
         <div class="preços">
           <h1>Luzes</h1>
-          <p>30 min</p>
-          <p>Apartir de:</p>
-          <p>20R$</p>         
+          <p>1 hora</p>       
         </div>
         
           <div class="preços">
             <h1>Platinado</h1>  
-            <p>30 min</p>
-            <p>Apartir de:</p>
-            <p>30R$</p>
+            <p>1 hora</p>
           </div>
       </div>
 
@@ -219,6 +228,7 @@
 
 
   </body>
+
 
 <script src="./script.js" ></script>
  

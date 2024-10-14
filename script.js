@@ -2,6 +2,8 @@ const form = document.querySelector(".for")
 const mascara = document.querySelector(".mascara-formulario")
 let contFotos = document.querySelector(".container-fotos")
 let fotos = contFotos.querySelectorAll(".fotos")
+let indicator = document.querySelector(".indicators");
+let dots = indicator.querySelectorAll("ul div");
 const prevButton = document.querySelector(".direita")
 const nextButton = document.querySelector(".esquerda")
 
@@ -12,6 +14,10 @@ let lastPosition = fotos.length-1;
 function setSlider(){
   let itemOLd = contFotos.querySelector(".fotos.ativo")
   itemOLd.classList.remove("ativo");
+
+  let dotsOld = indicator.querySelector("ul div.active");
+  dotsOld.classList.remove("active");
+  dots[active].classList.add("active");
 }
 
 prevButton.onclick = () => {
@@ -28,6 +34,21 @@ nextButton.onclick = () => {
 
 }
 
+const menuList = document.querySelector(".menu-list")
+menuList.style.maxHeight = "0px"
+
+
+function showMenu(){
+
+  if(menuList.style.maxHeight == "0px"){
+    menuList.style.maxHeight = "245px"
+  } 
+  else{
+    menuList.style.maxHeight = "0px"
+  }
+
+
+}
 
 
 const proxButton = document.querySelector(".direita01")
@@ -68,4 +89,8 @@ function CliqueiNaMascara(){
   form.style.transform = "translatey(0)"
   form.style.top = "-170%"
 }
+
+
+
+
 
