@@ -25,13 +25,11 @@ em, i { font-style: italic; }
 
 body{
   overflow-x: hidden;
-  background: #fff;
-  min-width: 100%;
-  min-height: 100%;
+  max-width: 100vw;
 }
 
 .pai {
-  width: 100%;
+  max-width: 100vw;
  
 }
 
@@ -127,6 +125,7 @@ width: 100%;
     height: 62vh; 
     border-radius: 5px;
     margin-top: 34px;
+
   }
 
   & .img02{
@@ -634,20 +633,24 @@ display: none;
 
 }
 
- @media screen and (max-width:900px ) {
+ @media screen and (max-width:500px ) {
 body{
   overflow: scroll;
   overflow-x: hidden;
   
 }
 
+
 .logo1{
-  width: 28.6vw;
+  width: 21.6vw;
+  height: 15vh;
 }
 
 h6{
-  font-size: 10vw;
+  font-size: 2.5em;
+  margin-left: 50px;
 }
+
 
 .none{
   display: none;
@@ -657,13 +660,13 @@ h6{
 
 .menu-list{
   transition: all 0.8s ease-in-out  ;
-  width: 20vw;
+  width: 18vw;
   max-height: 236px;
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 6rem;
-  left: 36.5rem;
+  top: 9rem;
+  left: 34.5rem;
   overflow: hidden;
  
  
@@ -672,8 +675,10 @@ h6{
 
 .menu-icon{
   display: block  ;
-  margin-left: 22rem;
+  margin-left: 19rem;
   cursor: pointer;
+  width: 21px;
+  height: 26px;
 }
 
 .nav-li{
@@ -685,7 +690,7 @@ margin-top: 20px;
 }
 
 .nav-link{
-  font-size: 18px;
+  font-size: 15px;
   margin-left: -20px;
 }
 
@@ -695,21 +700,24 @@ margin-top: 20px;
 
 & img{
  
-  min-width: 110%;
-  height: 44vh;
-  margin-left: 52px;
+  width: 29rem;
+   height: 36vh;  
+   margin-left: 74px;
+  margin-top: 74px;
 }
 
 & .img02{
-  min-width: 110%;
-  height: 44vh;
-  margin-left: 52px;
+  width: 29rem;
+  height: 33vh;  
+  margin-left: 74px;
+ margin-top: 74px;
 }
 
 & .img03{
-  min-width: 110%;
-  height: 44vh;
-  margin-left: 52px;
+  width: 29rem;
+  height: 33vh;  
+  margin-left: 74px;
+ margin-top: 74px;
 }
 
   }
@@ -717,13 +725,13 @@ margin-top: 20px;
 }
 
 ul {
-  top: 29rem;
-    left: 7rem;
+  top: 27rem;
+    left: 5.5rem;
 }
 
 .seta{
-  top: 60%;
-    left: 100%;
+  top: 66%;
+    left: 89%;
     width: 180vw;
 
 
