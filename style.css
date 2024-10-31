@@ -634,11 +634,15 @@ display: none;
 }
 
  @media screen and (max-width:500px ) {
-body{
-  overflow: scroll;
-  overflow-x: hidden;
+  body{
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
   
-}
+  .pai {
+    max-width: 100vw;
+   
+  }
 
 
 .logo1{
