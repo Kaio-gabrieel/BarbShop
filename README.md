@@ -7,9 +7,9 @@
 <img src="https://github.com/Kaio-gabrieel/BarbShop/blob/main/img/CT2.png?raw=true">
 <img src="https://github.com/Kaio-gabrieel/BarbShop/blob/main/img/CT3.png?raw=true">
 <br>
-<h3>Responsividade</h3>
-<img src="https://github.com/Kaio-gabrieel/BarbShop/blob/main/img/1000094798.jpg?raw=true">
-<img src="https://github.com/Kaio-gabrieel/BarbShop/blob/main/img/1000094799.jpg?raw=true">
+<h3>Responsivo</h3>
+<img src="https://github.com/Kaio-gabrieel/BarbShop/blob/main/img/1000094798.jpg?raw=true"> <img src="https://github.com/Kaio-gabrieel/BarbShop/blob/main/img/1000094799.jpg?raw=true">
+
 <img src="https://github.com/Kaio-gabrieel/BarbShop/blob/main/img/1000094800.jpg?raw=true">
 <br>
 <h4Tecnologias utilizadas </h4>
