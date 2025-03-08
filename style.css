@@ -30,7 +30,7 @@ header {
   max-height: 69px;
   padding: 8px;
   display: flex;
-  margin-top: 18px;
+  margin-top: 19px;
   margin-left: 111px;
   border-radius: 18px;
   background-color: #E5940F;
@@ -670,4 +670,237 @@ body{
   display: none;
 
 }
+
+
+.menu-list{
+  transition: all 0.8s ease-in-out  ;
+  width: 18vw;
+  max-height: 236px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 9rem;
+  left: 34.5rem;
+  overflow: hidden;
+ 
+ 
+
+}
+
+.menu-icon{
+  display: block  ;
+  margin-left: 19rem;
+  cursor: pointer;
+  width: 21px;
+  height: 26px;
+}
+
+.nav-li{
+display: flex;
+flex-direction:row;
+margin-top: 20px;
+
+
+}
+
+.nav-link{
+  font-size: 15px;
+  margin-left: -20px;
+}
+
+.container-fotos{
+
+  & .fotos{
+
+& img{
+ 
+  width: 29rem;
+   height: 36vh;  
+   margin-left: 74px;
+  margin-top: 74px;
+}
+
+& .img02{
+  width: 29rem;
+  height: 33vh;  
+  margin-left: 74px;
+ margin-top: 74px;
+}
+
+& .img03{
+  width: 29rem;
+  height: 33vh;  
+  margin-left: 74px;
+ margin-top: 74px;
+}
+
+  }
+
+}
+
+ul {
+  top: 27rem;
+    left: 5.5rem;
+}
+
+.seta{
+  top: 66%;
+    left: 89%;
+    width: 180vw;
+
+
+    & button{
+
+& img{
+  width: 26px;
+}
+
+    }
+}
+
+h3{
+ display: none;
+}
+
+.wrapper{
+
+display: contents;
+
+
+& .titulo{
+  
+  & p{
+
+    font-size: 23px;
+  }
+}
+
+& .button-contato{
+  left: 25rem;
+  width: 43vw;
+}
+
+}
+
+
+.sociais{
+  top: -22rem;
+  left: -6rem;
+  position: relative;
+
+}
+
+.insta{
+  width: 15vw !important;
+  margin-left: 5px !important;
+}
+
+.wpp{
+  width: 15vw !important;
+}
+
+.container-item{
+  width: 168%;
+  height: 47%;
+  top: 58rem;
+}
+
+& .item{
+
+  & img{
+        width: 17rem;
+        position: absolute;
+        border-radius: 10px;
+        margin-bottom: 19px;
+        margin-left: 5rem;
+        margin-top: 1rem;
+  }
+
+  & .degrade{
+            margin-left: 6%;
+            width: 62vw;
+            height: 17rem;
+            margin-top: 1rem;
+  }
+
+
+& .descrição{
+  margin-left: 27rem;
+  margin-top: 2rem;
+}
+
+}
+
+.arrow{
+  top: 81rem;
+  left: 113%;
+
+& button {
+  background-color: transparent;
+
+& img{
+width: 27px;
+}
+
+}
+
+}
+
+.equipe{
+  display: block;
+  margin-top: 27rem;
+    margin-left: 12rem;
+
+& h5{
+  font-size: 13vw;
+}
+
+& .Foto-equi{
+  margin-left: -114px;
+
+& img {
+  width: 56vw;
+}
+
+}
+
+}
+
+.maps{
+  display: block;
+  margin-top: 5rem;
+  left: 113%;
+
+  & iframe{
+    width: 150vw;
+        height: 33vh;
+  }
+
+}
+
+.for{
+  width: 76vw;
+    height: 72vh;
+}
+
+.mascara-formulario{
+  width: 120vw;
+  height: 166vh;
+}
+
  }
+
+ @media screen and (max-width:395px){
+  .for{
+    width: 76vw;
+    height: 90vh;
+    z-index: 1;
+  }
+
+  .mascara-formulario{
+    width: 140vw;
+    height: 166vh;
+  }
+ }
+
+ 
