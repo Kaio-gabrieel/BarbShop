@@ -34,6 +34,21 @@ nextButton.onclick = () => {
 
 }
 
+const menuList = document.querySelector(".menu-list")
+menuList.style.maxHeight = "0px"
+
+
+function showMenu(){
+
+  if(menuList.style.maxHeight == "0px"){
+    menuList.style.maxHeight = "245px"
+  } 
+  else{
+    menuList.style.maxHeight = "0px"
+  }
+
+
+}
 
 
 const proxButton = document.querySelector(".direita01")
@@ -74,4 +89,8 @@ function CliqueiNaMascara(){
   form.style.transform = "translatey(0)"
   form.style.top = "-170%"
 }
+
+
+
+
 

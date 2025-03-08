@@ -12,30 +12,31 @@
     <link rel="stylesheet" href="./style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>Barber Shop</title>
   </head>
   <body>
-      
-<div class="BackImg">
-  
-</div>
+
 
 <div class="pai">
   <div class="container-top">
            <img class="logo1" src="./img/Logo Barbearia ilustrado Cinza.png" alt="logo-barbearia">
             <h6> <span>Barbe</span> shop</h6>
           <header>
-            <a href="tel:5581999878924">Redes sociais</a>
-          <a href="#" onclick="cliquei()" >Serviços</a>
-          <a href="#fim">Sobre</a>
-          
+            <ul class="menu-list"> 
+              <li class="nav-li"><a class="nav-link" href="./index.html">Home</a></li>
+              <li class="nav-li"><a class="nav-link" href="#"onclick="cliquei()">Serviços</a></li>
+              <li class="nav-li"><a class="nav-link" href="./index_.html">Sobre</a></li>
+            </ul>
+            <img class="menu-icon" src="./img/menu.png" alt="botão-menu" onclick="showMenu()" >
+
           </header>         
   </div>
           <div class="container-fotos">
             
             <div class="fotos ativo">
               <img class="none" src="./img/barbeiroCorte.avif" alt="">
-              <img  src="./img/"alt="">
+              <img  src="./img/mão-tesoura.avif"alt="">
             </div>
               
               <div class="fotos">
@@ -75,21 +76,19 @@
             <section class="wrapper">
                 <div>
                   <h3><span>Barber</span> Shop</h3>
-                    
               </div> 
-            <div >
+           
+              <div >
               <div class="titulo">
                 <p>Domingo: <span>Fechado</span> <span class="material-icons">access_time</span> </p>
                 <p>Segunda á Sexta: <span> 10:00 ás 18:00</span> <span class="material-icons">access_time</span></p>
                 <p>Sábados: <span> 08:00 ás 18:00</span>  <span class="material-icons">access_time</span> </p>
+                  
+                <div class="sociais">
+                <a href="https://www.instagram.com/kaiio_gabriel113/?next=%2F"> <img class="insta" src="./img/instagran.avif" alt=""></a>   
+                
+                <a href="https://w.app/XIYVLr" alt=""><img class="wpp" src="./img/whatsapp.png" alt=""></a>
               </div> 
-             <!-- 
-             <h1>Te deixando na reguá e elevando seu estilo &#x1F487;</h1> 
-             <p>
-               A mais de 5 anos garantindo o seu melhor estilo com técnicas inovadoras e ousadas. 
-               Contamos com dois profissionais para diminuir o seu tempo de espera, o ambiente climatizado, com wi-fi e mesa de jogos
-                visando á melhor experiência para nossos clientes.
-              </p>-->
 
             </div> 
 
@@ -131,7 +130,7 @@
         </div>
 
         <div class="item">
-          <img class="estilos degrade" src="./img/degrade.png" alt="Corte-degrade">
+          <img class="degrade" src="./img/degrade.png" alt="Corte-degrade">
             <div class="descrição">
                 <h1>Degradê</h1>
                 <p>A partir de:</p>
@@ -168,7 +167,7 @@
  <div class="container-form">
    <form class="for">
 
-    <h2>Cabelo <img src="./img/" alt=""></h2>
+    <h2>Cabelo <img src="./img/CABELO.png" alt=""></h2>
 
       <div class="card-serviços">
 
@@ -193,7 +192,7 @@
             </div>
       </div>     
 
-      <h3>Barba e bidoge</h3>
+      <h7>Barba <img src="./img/BARBAa.png" alt=""></h7>
 
     <div class="card-serviços card-barba">
         <div class="preços barba">
@@ -207,7 +206,7 @@
         </div>
     </div>
         
-      <h4>Química (pintar)</h4>
+      <h4>Química (pintar) <img src="./img/estetica-facial.png" alt=""></h4>
 
       <div class="card-serviços card-quimica">
         <div class="preços">
@@ -217,7 +216,7 @@
         
           <div class="preços">
             <h1>Platinado</h1>  
-            <p>1 hora</p>
+            <p>40 min</p>
           </div>
       </div>
 
@@ -230,6 +229,7 @@
 
 
   </body>
+
 
 <script src="./script.js" ></script>
  
